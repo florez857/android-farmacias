@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navegacion"
+            app:startDestination="@id/deTurnoFragment">
+
+    <fragment
+            android:id="@+id/ubicacionFragment"
+            android:name="com.example.misfarmacias.Ubicacion.UbicacionFragment"
+            android:label="Ubicación de  Farmacias"
+            tools:layout="@layout/fragment_ubicacion" />
+    <activity android:id="@+id/splashActivity" android:name="com.example.misfarmacias.SplashActivity"
+              android:label="activity_splash" tools:layout="@layout/activity_splash"/>
+    <fragment
+            android:id="@+id/farmaciasFragment"
+            android:name="com.example.misfarmacias.Farmacias.FarmaciasFragment"
+            android:label="Listado de Farmacias"
+            tools:layout="@layout/fragment_farmacias" />
+    <fragment
+            android:id="@+id/deTurnoFragment"
+            android:name="com.example.misfarmacias.deTurno.DeTurnoFragment"
+            android:label="Farmacias de Turnos"
+            tools:layout="@layout/fragment_de_turno" />
+</navigation>

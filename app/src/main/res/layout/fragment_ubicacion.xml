@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <androidx.drawerlayout.widget.DrawerLayout-->
+<!--            android:id="@+id/drawer_layout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:openDrawer="start"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:elevation="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:mt_backIconTint="@color/colorPrimary"
+            app:mt_hint="Ingresar el Nombre"
+            app:mt_maxSuggestionsCount="20"
+            app:mt_navIconEnabled="false"
+            app:mt_placeholder="Busca Tu Farmacia..."
+            app:mt_roundedSearchBarEnabled="true"
+            app:mt_speechMode="false"
+            app:mt_searchIconTint="@color/colorPrimary"
+            app:mt_clearIconTint="@color/colorPrimary"
+            app:mt_textColor="@color/colorPrimaryDark" />
+
+            <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+<!--            <com.arlib.floatingsearchview.FloatingSearchView-->
+<!--                    android:id="@+id/floating_search_view"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:paddingLeft="4dp"-->
+<!--                    android:paddingRight="55dp"-->
+<!--                    app:floatingSearch_close_search_on_keyboard_dismiss="true"-->
+<!--                    app:floatingSearch_dismissFocusOnItemSelection="false"-->
+<!--                    app:floatingSearch_leftActionColor="@color/colorPrimary"-->
+<!--                    app:floatingSearch_leftActionMode="showHamburger"-->
+<!--                    app:floatingSearch_menuItemIconColor="@color/colorPrimaryDark"-->
+<!--                    app:floatingSearch_searchHint="Buscar Farmacias..."-->
+<!--                    app:floatingSearch_showSearchKey="true"-->
+<!--                    app:floatingSearch_suggestionsListAnimDuration="250"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:id="@+id/nav_view"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:fitsSystemWindows="true">-->
+
+
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/listado_drawer"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>-->
+
+
+
+<!--        </com.google.android.material.navigation.NavigationView>-->
+
+
+
+<!--    </androidx.drawerlayout.widget.DrawerLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

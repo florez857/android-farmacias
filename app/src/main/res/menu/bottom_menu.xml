@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/deTurnoFragment"
+            android:title="De Turno"
+            android:icon="@android:drawable/ic_menu_myplaces"/>
+
+    <item   android:id="@+id/ubicacionFragment"
+            android:title="Ubicaciones"
+          android:icon="@android:drawable/ic_menu_search"/>
+
+
+
+    <item
+            android:id="@+id/farmaciasFragment"
+            android:title="Farmacias"
+          android:icon="@android:drawable/ic_lock_lock"/>
+
+
+</menu>

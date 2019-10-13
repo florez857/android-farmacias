@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="far"
+                type="com.example.misfarmacias.dataBase.FarmaciasDatas"/>
+
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FFFEFE"
+            app:cardElevation="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/direccion_farmacia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@{far.direccion}"
+                    android:textAlignment="viewStart"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/nombre_farmacia"
+                    app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <TextView
+                    android:id="@+id/nombre_farmacia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="roboto"
+                    android:text="@{far.nombre}"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icono_direccion_farmacia"
+                    app:layout_constraintTop_toBottomOf="@+id/imagen_farmacia" />
+
+            <ImageView
+                    android:id="@+id/icono_direccion_farmacia"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/nombre_farmacia"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/nombre_farmacia"
+                    app:srcCompat="@drawable/ic_hospital_24dp"
+                    tools:srcCompat="@drawable/ic_hospital_24dp" />
+
+            <View
+                    android:id="@+id/view"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#008577"
+                    app:layout_constraintEnd_toEndOf="@+id/nombre_farmacia"
+                    app:layout_constraintStart_toStartOf="@+id/icono_direccion_farmacia"
+                    app:layout_constraintTop_toBottomOf="@+id/nombre_farmacia" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</layout>

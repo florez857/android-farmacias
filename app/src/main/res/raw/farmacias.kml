@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa farmacias</name>
+    <description/>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>GARCÍA - GÓMEZ C.B. </name>
+        <description><![CDATA[C/ Pizarro, 2<br>Telf: 961547168<br>Fax: 961537501]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.440043,39.481893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CARMEN TRAMOYERES ROVIRA </name>
+        <description><![CDATA[C/ Juan Ramón Jiménez, 20 (Bº del Cristo)<br>Telf: 961546817]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.461404,39.476179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MIGUEL ESPINOS MUEDRA </name>
+        <description><![CDATA[C/ Luis Vives, 7<br>Telf: 961523197]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.453036,39.482473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mª LUISA DOMINGO GIMENO </name>
+        <description><![CDATA[C/ Jaime Balmes, 27<br>Telf: 961848244]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.4369,39.480038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ANTONIO HERRERO MASCAROS </name>
+        <description><![CDATA[C/ Dr.Desiderio Gallego, 10<br>Telf: 961547388]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.445386,39.483616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HERRÁEZ - LUCENA C.B. </name>
+        <description><![CDATA[C/ Trafalgar, 30<br>Telf: 961548092]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.447618,39.482887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MERCEDES MARTÍNEZ MIR </name>
+        <description><![CDATA[C/ Palleter, 17<br>Telf: 961541720]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.435194,39.482042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AMPARO GARCÍA GINER </name>
+        <description><![CDATA[C/ Joanot Martorell, 7<br>Telf: 961548022]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.441695,39.482787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FURIO GONZALEZ C.B. </name>
+        <description><![CDATA[C/ 1º de Mayo, 30<br>Telf: 961541762]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.445461,39.480742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JULIO TUDELA CUENCA </name>
+        <description>C/ Joanot Martorell, 35</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -0.44412,39.48239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

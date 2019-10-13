@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:elevation="5dp"
+                    android:fontFamily="roboto"
+                    android:text="Titulo"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:id="@+id/direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@color/colorPrimary"
+                    android:fontFamily="@font/roboto"
+                    android:padding="5dp"
+                    android:text="contenido de la ventana de datos"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:id="@+id/telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@color/colorPrimary"
+                    android:fontFamily="roboto"
+                    android:padding="5dp"
+                    android:text="contenido de la ventana de datos"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
